@@ -1,0 +1,304 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  -webkit-user-select: transparent;
+  -moz-user-select: transparent;
+  -ms-user-select: transparent;
+  user-select: transparent;
+}
+
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+
+  -ms-overflow-style: none;
+
+  background-color: #090709;
+
+  --menuHeight: calc(14px + 15px * 2);
+  --titleHeight: 61px;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  overscroll-behavior: none;
+  overflow-y: hidden;
+}
+
+body {
+  margin-bottom: 100vh;
+
+  color: #F9F7F4;
+}
+
+a {
+  text-decoration: none;
+  color: #F9F7F4;
+}
+
+.cursor-hover p,
+.resize-alert p {
+  font-family: 'Office Times Round Mono', monospace;
+  font-weight: normal;
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 1;
+  height: 11px;
+
+  color: #F9F7F4;
+}
+
+.logo h1 {
+  font-family: "TRJN DaVinci", serif;
+  font-weight: normal;
+  font-style: normal;
+
+  font-size: 84px;
+  line-height: 54px;
+  letter-spacing: -4px;
+
+  text-transform: uppercase;
+}
+
+.screen-blocker {
+  width: 100vw;
+  height: 100vh;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.cursor-hover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+
+  color: #F9F7F4;
+
+  padding: 2px 5px;
+
+  pointer-events: none;
+  transition: transform .05s;
+
+  mix-blend-mode: difference;
+}
+
+.cursor-hover p{
+  text-transform: uppercase;
+
+  display: inline;
+
+  opacity: 0;
+  will-change: opacity;
+}
+
+.curtain {
+  width: 100vw;
+  height: 100vh;
+
+  position: fixed;
+  z-index: 998;
+
+  display: flex;
+
+  pointer-events: none;
+}
+
+.curtain-left,
+.curtain-right {
+  width: 50%;
+  height: 100%;
+
+  position: relative;
+
+  background-color: #F9F7F4;
+
+  will-change: left, right;
+}
+
+.logo {
+  width: 100%;
+  height: 100svh;
+
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  
+  pointer-events: none;
+
+  color: white;
+  mix-blend-mode: difference;
+}
+
+.logo-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+}
+
+.logo-left-section,
+.logo-right-section {
+  width: 50%;
+  height: 100%;
+
+  position: relative;
+}
+
+.logo-right-section {
+  margin-right: 13px;
+}
+
+.logo-left-section {
+  margin-left: 18px;
+}
+
+.logo h1 {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.logo-left-section h1 {
+  right: 0;
+}
+
+.logo-left-section h1,
+.logo-right-section h1 {
+  will-change: transform, left, right, color;
+}
+
+.logo span {
+  padding: 3px 2px 8px 2px;
+
+  display: inline-block;
+  
+  overflow-y: hidden;
+}
+
+.logo p {
+  transform: translateY(125%);
+
+  opacity: 0.65;
+  will-change: transform, opacity;
+}
+
+html[data-is-home="false"] .logo p {
+  transform: translateY(0px);
+
+  opacity: 1;
+}
+
+html[data-is-home="false"] .logo h1 {
+  transform: translateY(0);
+  top: 22px;
+}
+
+.logo-animation-trigger {
+  position: absolute;
+}
+
+#about {
+  position: absolute;
+
+  margin-top: 100vh;
+}
+
+.resize-alert {
+  width: 100vw;
+  height: 100svh;
+
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+
+  background-color: #F9F7F4;
+}
+
+.resize-alert p {
+  color: #090709;
+}
+
+@media (hover: none) {
+  .cursor-hover {
+    display: none;
+  }
+
+  .js-link,
+  .next p,
+  .previous p {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .footer .js-link {
+    text-decoration-color: #090709;
+  }
+
+  .js-point {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .logo p {  
+    font-size: 70px;
+    line-height: 44px;
+    letter-spacing: -3px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-left-section h1 {
+    right: auto;
+    left: 0;
+  }
+  
+  .logo-right-section h1 {
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .logo h1 {  
+    font-size: 19vw;
+    line-height: 11.5vw;
+    letter-spacing: -1vw;
+  }
+}

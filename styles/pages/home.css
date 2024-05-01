@@ -1,0 +1,170 @@
+.home-project-text p,
+.project-number span {
+  font-family: 'Office Times Round Mono', monospace;
+  font-weight: normal;
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 1;
+
+  color: #F9F7F4;
+}
+
+.home-projects {
+  overflow-x: hidden;
+}
+
+.home-project {
+  width: 100%;
+  height: 100vh;
+
+  position: relative;
+  z-index: -1;
+  background-color: #090709;
+}
+
+.home-project.zero {
+  height: calc(100vh - 23px);
+}
+
+.home-project-divider {
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+
+  display: flex;
+}
+
+.home-project-divider .line {
+  width: 50%;
+  height: 1px;
+
+  transform: scaleX(0);
+
+  background-color: #F9F7F4;
+  opacity: 0.15;
+
+  transform-origin: left;
+  will-change: transform;
+}
+
+.home-project-text {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 25px 0px;
+
+  pointer-events: none;
+  will-change: opacity;
+}
+
+.home-project-text p {
+  opacity: 0;
+  will-change: opacity;
+}
+
+.project-number {
+  width: 25%;
+
+  position: absolute;
+  left: 0;
+
+  display: flex;
+
+  text-align: right;
+  justify-content: right;
+
+  padding-right: 25px;
+  gap: 10px;
+}
+
+.project-number span{
+  opacity: 0;
+  will-change: opacity;
+}
+
+.home-projects .project-details {
+  width: 50%;
+
+  position: relative;
+
+  display: flex;
+}
+
+.home-projects .project-details p {
+  width: 33.333%;
+}
+
+.home-projects .project-details p:nth-child(1) {
+  text-transform: uppercase;
+}
+
+.home-project-video {
+  width: 100vw;
+  height: calc(100% - 300px);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+
+  object-position: center;
+  object-fit: contain;
+  filter: brightness(0.85);
+
+  pointer-events: none;
+}
+
+.home-project.one .home-project-video {
+  margin-top: 23px;
+}
+
+@media (hover: none) {
+  .project-number span{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .home-projects .project-details {
+    width: 100%;
+
+    justify-content: space-between;
+
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .home-projects .project-details p:nth-child(3) {
+    text-align: right;
+  }
+
+  .project-number {
+    display: none;
+  }
+
+  .home-project-divider {
+    padding: 0 20px;
+  }
+
+  .home-project-divider .line {
+    width: 100%;
+  }
+
+  .home-project-video {
+    height: calc(100% - 360px);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .home-project-video {
+    padding: 0 20px;
+  }
+}

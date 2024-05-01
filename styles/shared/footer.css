@@ -1,0 +1,297 @@
+.footer h2,
+.footer-container p,
+.footer-container span {
+  font-family: 'Office Times Round Mono', monospace;
+  font-weight: normal;
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 1;
+
+  color: #F9F7F4;
+}
+
+.profession h1 {
+  font-family: "TRJN DaVinci", serif;
+  font-weight: normal;
+  font-style: normal;
+
+  font-size: 84px;
+  line-height: 52px;
+  letter-spacing: -4px;
+
+  color: #090709;
+
+  text-transform: uppercase;
+}
+
+.footer {
+  width: 100%;
+  height: 100vh;
+
+  position: fixed;
+  bottom: 0;
+  z-index: -2;
+
+  display: flex;
+  justify-content: center;
+
+  padding-bottom: 25px;
+
+  background-color: #F9F7F4;
+}
+
+.footer-container {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: end;
+}
+
+.footer-container h2 {
+  line-height: 1.25;
+
+  color: #090709;
+}
+
+.footer-container span {
+  margin-left: -15px;
+
+  position: absolute;
+  pointer-events: none;
+
+  color: #090709;
+
+  opacity: 0;
+}
+
+.footer-contact,
+.footer-more-projects, 
+.footer-about {
+  width: 33.333%;
+
+  pointer-events: none;
+}
+
+.footer-contact a,
+.footer-more-projects a {
+  position: relative;
+
+  display: inline-block;
+
+  text-transform: uppercase;
+
+  pointer-events: all;
+}
+
+.footer-about {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-about p {
+  width: 175%;
+
+  /* text-transform: uppercase; */
+  line-height: 1.25;
+  color: #090709;
+
+  pointer-events: none;
+}
+
+.profession {
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  padding-top: calc(52px + 33px + 25px);
+  margin-left: calc(25% - 12px);
+
+  pointer-events: none;
+}
+
+.profession h1:nth-child(2) {
+  margin-top: calc(6px + 25px);
+}
+
+.copyright {
+  width: 25%;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  padding-bottom: 25px;
+  pointer-events: none;
+}
+
+.copyright h2 {
+  padding-left: 20px;
+
+  text-transform: uppercase;
+  color: #090709;
+
+  opacity: 0.5;
+}
+
+@media (hover: none) {
+  .footer-container span  {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .footer-about p {
+    width: 250%;
+    
+    padding-right: 25px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-container {
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  .profession {  
+    transform: translate(-50%, -50%);
+    top: 32.5%;
+    left: 50%;
+  
+    padding-top: 0;
+    margin-left: calc(25% - 12px);
+  }
+
+  .footer-contact {
+    margin-bottom: 5px;
+  }
+
+  .footer-more-projects {
+    margin-bottom: 15px;
+  }
+
+  .footer-contact,
+  .footer-more-projects, 
+  .footer-about {
+    width: 100%;
+  }
+
+  .footer-about {
+    height: auto;
+  }
+
+  .footer-about p {
+    width: 150%;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .profession h1 {  
+    font-size: 70px;
+    line-height: 44px;
+    letter-spacing: -3px;
+  }
+
+  .profession h1:nth-child(2) {
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {  
+    padding-bottom: calc(25px + 14px + 50px);
+  }
+
+  .footer-container {
+    width: 100%;
+
+    padding: 0 20px;
+  }
+
+  .profession {
+    margin-left: 17px;
+  }
+
+  .copyright h2 {
+    white-space: nowrap;
+  }
+
+  .footer-about p {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  .profession h1:nth-child(1) {
+    line-height: 0.9;
+    padding-right: 40px;
+    text-align: right;
+  }
+
+  .profession h1:nth-child(2) {
+    margin-top: 9px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .profession h1:nth-child(2) {
+    text-align: right;
+    margin-right: 40px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .profession {
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 750px) {
+  .profession {
+    display: none;
+  }
+}
+
+/* @media only screen and (max-width: 375px) {
+  .profession {
+    transform: none;
+    top: auto;
+    left: auto;
+
+    padding-top: 50vw;
+  }
+
+  .profession h1 {
+    font-size: 19vw;
+    line-height: 11.5vw;
+    letter-spacing: -1vw;
+  }
+
+  .profession h1:nth-child(2) {
+    margin-top: calc(5.5vw - 9px);
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .profession h1:nth-child(2) {
+    margin-left: 3px;
+  }
+}
+
+@media only screen and (max-width: 225px) {
+  .profession {
+    padding-top: 40vw;
+  }
+}
+
+@media only screen and (max-width: 190px) {
+  .profession {
+    display: none;
+  }
+} */

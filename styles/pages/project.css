@@ -1,0 +1,441 @@
+.project p {
+  font-family: 'Office Times Round Mono', monospace;
+  font-weight: normal;
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 1.25;
+
+  color: #F9F7F4;
+}
+
+.project-title p,
+.previous p,
+.next p {
+  font-family: "TRJN DaVinci", serif;
+  font-weight: normal;
+  font-style: normal;
+
+  font-size: 84px;
+  line-height: 52px;
+  letter-spacing: -4px;
+
+  color: #F9F7F4;
+
+  text-transform: uppercase;
+}
+
+.project {
+  background-color: #090709;
+}
+
+.project-container {
+  overflow: hidden;
+}
+
+.project-top-section {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: calc((52px + 8px + 25px)) 0;
+
+  background-color: #090709;
+  pointer-events: none;
+}
+
+.project-title {
+  margin-left: 25%;
+
+  position: relative;
+
+  pointer-events: none;
+}
+
+.project-title h1 {
+  font-size: 0;
+  margin-left: -2px;
+}
+
+.project-title span {
+  padding: 25px 2px 10px 2px;
+
+  display: inline-block;
+  
+  overflow-y: hidden;
+}
+
+.project-title p {
+  transform: translateY(calc(125% + 25px));
+  white-space: nowrap;
+
+  opacity: 0.65;
+  will-change: transform, opacity;
+}
+
+.project-title-mobile {
+  display: none;
+}
+
+.project .project-details {
+  width: 50%;
+
+  margin-left: 25%;
+
+  display: flex;
+}
+
+.project-design-type,
+.project-year,
+.project-info {
+  width: 33.333%;
+  height: 100%;
+
+  padding-top: 25px;
+}
+
+.project-design-type p,
+.project-year p,
+.project-info p {
+  opacity: 0;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-info p {
+  width: 175%;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+}
+
+.links p {
+  width: auto;
+  
+  white-space: nowrap;
+}
+
+.links a {
+  display: flex;
+
+  text-transform: uppercase;
+
+  pointer-events: all;
+}
+
+.project-info span {
+  position: absolute;
+  margin-left: -15px;
+
+  line-height: 1;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.project-design-type-year-mobile {
+  width: 100%;
+  display: none;
+
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  opacity: 0;
+}
+
+.project-design-type-year-mobile p {
+  width: 33.333%;
+  white-space: nowrap;
+}
+
+.project-bottom-section {
+  position: relative;
+  z-index: 1;
+  padding-bottom: calc((var(--titleHeight) + 50px) * 2);
+
+  background-color: rgba(9, 7, 9, 0.25);
+}
+
+.project-media {
+  width: 100%;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  gap: calc((var(--titleHeight) + 50px) * 2);
+
+  padding-left: 25%;
+}
+
+.project-media video {
+  width: 50vw;
+  height: 100%;
+
+  object-fit: contain;
+  pointer-events: all;
+}
+
+.video-container {
+  width: 50vw;
+  position: relative;
+
+  pointer-events: all;
+}
+
+.video-container video {
+  cursor: pointer;
+}
+
+.video-controls {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  top: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(9, 7, 9, 0.65);
+  opacity: 0;
+
+  pointer-events: none;
+}
+
+
+.play {
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  border-width: 10px 0px 10px 20px;
+  border-color: transparent transparent transparent #F9F7F4;
+}
+
+.previous,
+.next {
+  position: absolute;
+  bottom: 0;
+
+  width: 50vw;
+  padding-bottom: 25px;
+}
+
+.previous {
+  padding-right: 25px;
+  left: 0;
+  text-align: right;
+}
+
+.next {
+  padding-left: 25px;
+  right: 0;
+}
+
+.previous p,
+.next p {
+  color: #F9F7F4;
+  display: inline-block;
+
+  opacity: 0;
+}
+
+.previous a,
+.next a {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media (hover: none) {
+  .project-info span {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .project-info p {
+    width: 250%;
+
+    padding-right: 25px;
+  }
+
+  .project-media video {
+    width: 75vw;
+    padding-right: 25px;
+  }
+
+  .video-container {  
+    width: 75vw;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-top-section {
+    padding: 0;
+    padding-top: calc(52px + 8px + 25px + var(--menuHeight));
+  }
+
+  .project-title {
+    margin-left: 20px;
+  }
+
+  .project .project-details {
+    width: 100%;
+
+    flex-direction: column;
+    align-items: normal;
+
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .project-design-type,
+  .project-year {
+    display: none;
+  }
+
+  .project-design-type-year-mobile {
+    display: flex;
+  }
+
+  .project-info {
+    position: relative;
+    z-index: 1;
+
+    width: 100%;
+
+    display: flex;
+
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: calc((var(--titleHeight) + 50px));
+
+    background: rgb(9,7,9);
+    background: linear-gradient(180deg, rgba(9,7,9,0) 0%, rgba(9,7,9,1) 10%);
+  }
+
+  .project-info p {
+    width: 100%;
+
+    padding-right: 15px;
+  }
+
+  .project-bottom-section {
+    padding-top: 0;
+    background-color: transparent;
+  }
+  
+  .project-media {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    gap: calc((var(--titleHeight) + 50px));
+    align-items: center;
+  }
+
+  
+  .video-container {
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+  }
+  
+  .project-media video {
+    width: 100%;
+
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .project-top-section {
+    padding-top: calc(52px + 12px + 20px + var(--menuHeight));
+    padding-bottom: 0;
+  }
+
+  .project-title p,
+  .next p,
+  .previous p {
+    font-size: 70px;
+    line-height: 44px;
+    letter-spacing: -3px;
+  }
+
+  .project-title span {
+    padding: 20px 2px 8px 2px;
+  }
+  
+  .project-title p {
+    transform: translateY(calc(125% + 20px));
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .project-design-type-year-mobile {
+    padding-right: 0;
+  }
+
+  .next p,
+  .previous p {
+    font-family: 'Office Times Round Mono', monospace;
+    font-weight: normal;
+    font-style: normal;
+  
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: 1.25;
+  
+    color: #F9F7F4;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  .project-title-desktop{
+    display: none;
+  }
+
+  .project-title-mobile {
+    display: block;
+  }
+
+  .project-title h1:nth-of-type(2) {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .project-title h1 {
+    font-size: 19vw;
+    line-height: 11.5vw;
+    letter-spacing: -1vw;
+  }
+
+  .project-design-type-year-mobile p {
+    width: 100%;
+    padding-right: 20px;
+  }
+
+  .project-design-type-year-mobile p:nth-child(2) {
+    text-align: end;
+  }
+}

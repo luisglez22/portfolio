@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'TRJN DaVinci';
+  src: url('../../assets/fonts/TRJNDaVinciDisplay.woff2') format('woff2'),
+      url('../../assets/fonts/TRJNDaVinciDisplay.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Office Times Round Mono';
+  src: url('../../assets/fonts/OfficeTimesRound-RegularMono.woff2') format('woff2'),
+      url('../../assets/fonts/OfficeTimesRound-RegularMono.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

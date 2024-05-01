@@ -1,0 +1,21 @@
+import reloadOnResize from "./utils/reloadOnResize.js";
+import backAndForwardFix from "./utils/backAndForwardFix.js";
+import hrefDelay from "./utils/hrefDelay.js";
+import screenAlert from "./utils/screenAlert.js";
+import scrollSmooth from "./utils/scrollSmooth.js";
+import { renderHomeProjects } from "./home/renderHomeProjects.js";
+import { fixedProjectInfoOnScroll } from "./home/fixedProjectInfoOnScroll.js";
+import { menu } from "./menu.js";
+import { globalAnimations } from "./globalAnimations.js";
+import { homeAnimations } from "./home/homeAnimations.js";
+
+screenAlert();
+reloadOnResize();
+backAndForwardFix();
+renderHomeProjects();
+menu();
+fixedProjectInfoOnScroll();
+homeAnimations();
+globalAnimations();
+hrefDelay();
+scrollSmooth();
