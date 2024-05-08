@@ -9,7 +9,7 @@ export const projects = [{
   text: `
   <p>Kháos aims to show that the universe is inherently unpredictable and that perhaps not everything has an explanation, since chaos is the natural state of everything around us, where the predictable and the unpredictable coexist.</p>
   <p>It also seeks to demonstrate through this premise that life, as we know it, is shaped by a vast chain of coincidences.</p>
-  <p>It is a highly personal contemplation that takes on meaning and unfolds through a brief essay, complemented by a website that aims to visually convey the idea behind the project.</p>
+  <p>It is a highly personal contemplation that takes on meaning and unfolds through a brief essay, complemented by a website that aims to visually convey the idea behind the project; an explanatory Case Study was also made.</p>
   <p>Both the drafting of the essay and its layout and design, along with the complementary website and the Brand Identity Manual, were exclusively developed by me, as it was presented as my Bachelor's Thesis.</p>
   
   <div class="links">
