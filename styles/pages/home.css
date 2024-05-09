@@ -1,11 +1,11 @@
 .home-project-text p,
 .project-number span {
-  font-family: 'Office Times Round Mono', monospace;
+  font-family: 'Shinka Mono', monospace;
   font-weight: normal;
   font-style: normal;
 
   font-size: 14px;
-  line-height: 1;
+  line-height: 0.95;
 
   color: #F9F7F4;
 }

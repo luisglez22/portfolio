@@ -1,12 +1,12 @@
 .footer h2,
 .footer-container p,
 .footer-container span {
-  font-family: 'Office Times Round Mono', monospace;
+  font-family: 'Shinka Mono', monospace;
   font-weight: normal;
   font-style: normal;
 
   font-size: 14px;
-  line-height: 1;
+  line-height: 0.95;
 
   color: #F9F7F4;
 }
@@ -50,7 +50,7 @@
 }
 
 .footer-container h2 {
-  line-height: 1.25;
+  line-height: 1.35;
 
   color: #090709;
 }
@@ -61,6 +61,7 @@
   position: absolute;
   pointer-events: none;
 
+  line-height: 1;
   color: #090709;
 
   opacity: 0;
@@ -95,7 +96,7 @@
   width: 175%;
 
   /* text-transform: uppercase; */
-  line-height: 1.25;
+  line-height: 1.35;
   color: #090709;
 
   pointer-events: none;

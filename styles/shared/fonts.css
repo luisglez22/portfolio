@@ -8,9 +8,9 @@
 }
 
 @font-face {
-  font-family: 'Office Times Round Mono';
-  src: url('../../assets/fonts/OfficeTimesRound-RegularMono.woff2') format('woff2'),
-      url('../../assets/fonts/OfficeTimesRound-RegularMono.woff') format('woff');
+  font-family: 'Shinka Mono';
+  src: url('../../assets/fonts/ShinkaMono-Regular.woff2') format('woff2'),
+      url('../../assets/fonts/ShinkaMono-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;

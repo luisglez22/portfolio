@@ -69,12 +69,12 @@ a {
 
 .cursor-hover p,
 .resize-alert p {
-  font-family: 'Office Times Round Mono', monospace;
+  font-family: 'Shinka Mono', monospace;
   font-weight: normal;
   font-style: normal;
 
   font-size: 14px;
-  line-height: 1;
+  line-height: 0.95;
   height: 11px;
 
   color: #F9F7F4;
