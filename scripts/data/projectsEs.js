@@ -47,8 +47,8 @@ export const projectsEs = [{
   designType: 'Diseño Web',
   year: '2023',
   text: `
-  <p>King Baudouin Memorial (Memorial Rey Balduino) located in Motril, aims to convey to the public the values and life philosophy of Baudouin, King of the Belgians, and to share with all who visit this place his human and spiritual journey.</p>
-  <p>My role involved crafting its website, adhering to the previously established graphic identity in order to achieve an environment that aligns with the essence of the memorial where elegance does not compromise modernity.</p>
+  <p>El Memorial Rey Balduino, ubicado en Motril, tiene como objetivo transmitir los valores y la filosofía de vida de Balduino, Rey de los Belgas, y compartir con todos los que visiten este lugar su trayectoria humana y espiritual.</p>
+  <p>Mi papel consistió en elaborar su sitio web, respetando la identidad gráfica previamente establecida con el fin de lograr un entorno que se ajuste a la esencia del memorial donde la elegancia no compromete la modernidad.</p>
 
   <div class="links">
     <a class="js-link" href="https://www.memorialreybalduino.com" target="_blank">
