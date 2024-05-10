@@ -179,7 +179,7 @@ function menuIndexReveal() {
 
 //INDEX LINK TO PROJECT ANIMATION
 function indexLinkToProjectAnimation() {
-  const indexLink = document.querySelectorAll(".index-item a, .home-item a");
+  const indexLink = document.querySelectorAll(".index-item a, .home-item a, .nav-item:nth-child(3) a");
 
   indexLink.forEach((item) => {
     const onClick = () => {

@@ -1,10 +1,20 @@
 import { projects } from "../data/projects.js";
+import { projectsEs } from "../data/projectsEs.js";
 
 export function renderProject() {
+  const lang = document.documentElement.getAttribute("lang");
+  let projectsData = '';
+
+  if(lang === 'en') {
+    projectsData = projects;
+  } else if (lang === 'es') {
+    projectsData = projectsEs;
+  }
+
   let matchingProject;
   const container = document.querySelector('.project');
 
-  projects.forEach((project) => {
+  projectsData.forEach((project) => {
     const projectContainerId = Number(container.dataset.projectId);
 
     if (projectContainerId === project.id) {
@@ -33,26 +43,39 @@ export function renderProject() {
   }
 
   let prevNextHTML = '';
-  let prevText = 'Previous';
-  let nextText = 'Next';
+  let prevText = '';
+  let nextText = '';
+
+  if(lang === 'en') {
+    prevText = 'Previous';
+    nextText = 'Next';
+  } else if (lang === 'es') {
+    prevText = 'Ant.';
+    nextText = 'Sig.';
+  }
 
   if(window.innerWidth <= 640) {
-    prevText = 'Previous Project';
-    nextText = 'Next Project';
+    if(lang === 'en') {
+      prevText = 'Previous project';
+      nextText = 'Next project';
+    } else if (lang === 'es') {
+      prevText = 'Anterior proyecto';
+      nextText = 'Siguiente proyecto';
+    }
   }
 
   if(matchingProject.id === 0) {
     prevNextHTML = `
       <div class="next">
-        <a href="${projects[matchingProject.id + 1].href}" class="href-delay-one">
+        <a href="${projectsData[matchingProject.id + 1].href}" class="href-delay-one">
           <p>${nextText}</p>
         </a>
       </div>
     `;
-  } else if(matchingProject.id + 1 === projects.length) {
+  } else if(matchingProject.id + 1 === projectsData.length) {
       prevNextHTML = `
         <div class="previous">
-          <a href="${projects[matchingProject.id - 1].href}" class="href-delay-one">
+          <a href="${projectsData[matchingProject.id - 1].href}" class="href-delay-one">
             <p>${prevText}</p>
           </a>
         </div>
@@ -60,12 +83,12 @@ export function renderProject() {
   } else {
     prevNextHTML = `
       <div class="previous">
-        <a href="${projects[matchingProject.id - 1].href}" class="href-delay-one">
+        <a href="${projectsData[matchingProject.id - 1].href}" class="href-delay-one">
           <p>${prevText}</p>
         </a>
       </div>
       <div class="next">
-        <a href="${projects[matchingProject.id + 1].href}" class="href-delay-one">
+        <a href="${projectsData[matchingProject.id + 1].href}" class="href-delay-one">
           <p>${nextText}</p>
         </a>
       </div>
