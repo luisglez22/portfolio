@@ -43,7 +43,7 @@ export function renderMenuIndex() {
     let hrefHome = './';
 
     if(lang === 'es') {
-      hrefHome = '../es.html';
+      hrefHome = '../es';
     }
 
     containerHtml.innerHTML = `
