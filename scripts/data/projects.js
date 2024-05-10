@@ -86,5 +86,10 @@ export const projects = [{
     <span>
       <p>Baudouin</p>
     </span>
-  `
+  `,
+  nameMobileLineThree: `
+  <span>
+    <p>Memorial</p>
+  </span>
+`
 }]
