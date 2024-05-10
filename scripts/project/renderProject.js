@@ -17,11 +17,10 @@ export function renderProject() {
   if(matchingProject.titleIsLong === 'true') {
     titleHTML = `
     <h1 class="project-title-desktop">${matchingProject.nameDesktopLineOne}</h1>
+    <h1 class="project-title-desktop">${matchingProject.nameDesktopLineTwo}</h1>
     <h1 class="project-title-mobile">${matchingProject.nameMobileLineOne}</h1>
     <h1 class="project-title-mobile">${matchingProject.nameMobileLineTwo}</h1>
-    <h1>
-        ${matchingProject.nameDesktopLineTwo}
-    </h1>
+    <h1 class="project-title-mobile">${matchingProject.nameMobileLineThree}</h1>
     `;
   } else {
     titleHTML = `
