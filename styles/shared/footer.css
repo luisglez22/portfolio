@@ -61,7 +61,7 @@
   position: absolute;
   pointer-events: none;
 
-  line-height: 1;
+  line-height: 1.1;
   color: #090709;
 
   opacity: 0;
