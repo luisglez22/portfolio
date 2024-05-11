@@ -98,7 +98,7 @@ function reloadAnimation() {
         duration: 1,
         ease: "power3.inOut",
 
-        translateY: () => `${document.querySelector(".menu").offsetHeight}px`
+        translateY: () => `${document.querySelector(".menu").offsetHeight + 1}px`
       },"<")
       .to(".nav h2", {
         duration: 0.35,
@@ -139,14 +139,14 @@ function reloadAnimation() {
 
         translateY: isMobile
           ? "0%"
-          : () => `-${document.querySelector(".menu").offsetHeight}px`
+          : () => `-${document.querySelector(".menu").offsetHeight + 1}px`
       }, "+=0.5")
       .to(".logo", {
         duration: 1,
         ease: "power3.inOut",
 
         translateY: isMobile
-          ? () => `${document.querySelector(".menu").offsetHeight}px`
+          ? () => `${document.querySelector(".menu").offsetHeight + 1}px`
           : "0%"
       },"<")
       .to(".nav h2", {
@@ -155,7 +155,7 @@ function reloadAnimation() {
 
         translateY: isMobile
           ? "0%"
-          : () => `${document.querySelector(".menu").offsetHeight}px`
+          : () => `${document.querySelector(".menu").offsetHeight + 1}px`
       },"<")
       .to(".screen-blocker", {
         delay: isMobile ? 0 : 1,

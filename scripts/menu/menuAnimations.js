@@ -43,7 +43,7 @@ function menuRevealOnHover() {
         duration: 1,
         ease: "power3.inOut",
 
-        translateY: () => `${document.querySelector(".menu").offsetHeight}px`
+        translateY: () => `${document.querySelector(".menu").offsetHeight + 1}px`
       },"<")
     };
 
@@ -357,7 +357,7 @@ function hideMenuIndexInMobile() {
           duration: 1,
           ease: "power3.inOut",
   
-          translateY: () => `${document.querySelector(".menu").offsetHeight}px`
+          translateY: () => `${document.querySelector(".menu").offsetHeight + 1}px`
         },"<")
       }
     });
@@ -433,7 +433,7 @@ export function menuHideAnimation() {
     duration: 1,
     ease: "power3.inOut",
 
-    translateY: () => `-${document.querySelector(".menu").offsetHeight}px`,
+    translateY: () => `-${document.querySelector(".menu").offsetHeight + 1}px`,
   },"-=0.75")
   .to(".logo", {
     duration: 1,
@@ -445,7 +445,7 @@ export function menuHideAnimation() {
     duration: 1,
     ease: "power3.inOut",
 
-    translateY: () => `${document.querySelector(".menu").offsetHeight}px`,
+    translateY: () => `${document.querySelector(".menu").offsetHeight + 1}px`,
   },"<")
   .to([".menu-reveal", ".menu", ".nav a", ".nav h2"], {
     duration: 0,
