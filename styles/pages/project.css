@@ -188,6 +188,14 @@
   pointer-events: all;
 }
 
+.project-media img{
+  width: 50vw;
+  height: 100%;
+
+  object-fit: contain;
+  pointer-events: none;
+}
+
 .video-container {
   width: 50vw;
   position: relative;
@@ -279,6 +287,11 @@
     padding-right: 25px;
   }
 
+  .project-media img {
+    width: 75vw;
+    padding-right: 25px;
+  }
+
   .video-container {  
     width: 75vw;
   }
@@ -358,6 +371,12 @@
   }
   
   .project-media video {
+    width: 100%;
+
+    padding-right: 0;
+  }
+
+  .project-media img {
     width: 100%;
 
     padding-right: 0;
