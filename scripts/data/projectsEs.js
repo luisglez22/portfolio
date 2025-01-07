@@ -267,10 +267,15 @@ export const projectsEs = [{
   `,
   nameMobileLineOne: `
     <span>
-      <p>La Naranja</p>
+      <p>La</p>
     </span>
   `,
   nameMobileLineTwo: `
+    <span>
+      <p>Naranja</p>
+    </span>
+  `,
+  nameMobileLineThree: `
     <span>
       <p>Mecánica</p>
     </span>
