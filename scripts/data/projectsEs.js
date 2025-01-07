@@ -226,4 +226,53 @@ export const projectsEs = [{
       <p>Lovecraft</p>
     </span>
   `
+}, {
+  id: 5,
+  number: 'five',
+  href: 'la-naranja-mecanica',
+
+  name: 'La Naranja<br>Mecánica',
+  designType: 'Packaging,<br>Identidad Corporativa,<br>3D',
+  year: '2021',
+  text: `
+  <p>Con motivo de la celebración del 50 aniversario de “La Naranja Mecánica”, nos unimos los estudiantes de ESNE (ahora UDIT) y ESAD (Escola Superior de Artes e Design do Matosinhos). Mi contribución a este proyecto consistió en el diseño del packaging para unos folletos y el logotipo conmemorativo.</p>
+  <p>En cuanto a la caja contenedora de los folletos decidí apostar por un diseño exterior simple, que únicamente incluyera el logotipo, pero un interior rompedor que aportara valor a la pieza.</p>
+  <p>Este interior incluye los elementos distintivos del protagonista de la película Alex DeLarge: el sombrero, el maquillaje en el ojo derecho, los ojos en las muñecas y su vestimenta.</p>
+  <p>Por otro lado, el logotipo o sello conmemorativo también incluye su icónico ojo derecho y su sombrero; junto a una naranja (como un guiño al título de la película).</p>
+
+  <div class="links">
+    <a class="js-link" href="https://www.behance.net/gallery/129105897/50-anos-de-La-Naranja-Mecanica-(Proyecto-Universitario)#" target="_blank">
+      <span class="js-point">·</span><p>Proyecto en Behance</p>
+    </a>
+  </div>
+  `,
+
+  videoHome: 'assets/video/a-clockwork-orange/a-clockwork-orange_mockup.mp4',
+  projectMedia: `
+  <video autoplay="autoplay" playsinline muted defaultMuted loop="loop" oncontextmenu="return false;" preload="auto" style="filter: brightness(0.9) contrast(1.1);"> 
+    <source src="../assets/video/a-clockwork-orange/a-clockwork-orange_mockup.mp4" type="video/mp4">
+  </video>
+  `,
+
+  titleIsLong: 'true',
+  nameDesktopLineOne: `
+    <span>
+      <p>La Naranja</p>
+    </span>
+  `,
+  nameDesktopLineTwo: `
+    <span>
+      <p>Mecánica</p>
+    </span>
+  `,
+  nameMobileLineOne: `
+    <span>
+      <p>La Naranja</p>
+    </span>
+  `,
+  nameMobileLineTwo: `
+    <span>
+      <p>Mecánica</p>
+    </span>
+  `
 }]
