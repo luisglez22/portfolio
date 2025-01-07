@@ -226,4 +226,52 @@ export const projects = [{
       <p>Collection</p>
     </span>
   `
+}, {
+  id: 5,
+  number: 'five',
+  href: 'a-clockwork-orange',
+
+  name: 'A Clockwork<br>Orange',
+  designType: 'Packaging,<br>Corporate Identity,<br>3D',
+  year: '2021',
+  text: `
+  <p>In celebration of the 50th anniversary of “A Clockwork Orange,” students from ESNE (now UDIT) and ESAD (Escola Superior de Artes e Design do Matosinhos) came together. My contribution to this project involved designing the packaging for brochures and the commemorative logo.</p>
+  <p>For the brochure container, I opted for a simple exterior design, featuring only the logo, but an eyecatching interior to add value to the piece. This interior includes distinctive elements of the film's protagonist, Alex DeLarge: the hat, makeup on the right eye, eyes on the wrists, and his clothing.</p>
+  <p>Additionally, the commemorative logo or seal also incorporates his iconic right eye and hat, alongside an orange (as a nod to the film title).</p>
+
+  <div class="links">
+    <a class="js-link" href="https://www.behance.net/gallery/129105897/50-anos-de-La-Naranja-Mecanica-(Proyecto-Universitario)#" target="_blank">
+      <span class="js-point">·</span><p>Project in Behance</p>
+    </a>
+  </div>
+  `,
+
+  videoHome: 'assets/video/a-clockwork-orange/a-clockwork-orange_mockup.mp4',
+  projectMedia: `
+  <video autoplay="autoplay" playsinline muted defaultMuted loop="loop" oncontextmenu="return false;" preload="auto" style="filter: brightness(0.9) contrast(1.1);"> 
+    <source src="assets/video/a-clockwork-orange/a-clockwork-orange_mockup.mp4" type="video/mp4">
+  </video>
+  `,
+
+  titleIsLong: 'true',
+  nameDesktopLineOne: `
+    <span>
+      <p>A Clockwork</p>
+    </span>
+  `,
+  nameDesktopLineTwo: `
+    <span>
+      <p>Orange</p>
+    </span>
+  `,
+  nameMobileLineOne: `
+    <span>
+      <p>A Clockwork</p>
+    </span>
+  `,
+  nameMobileLineTwo: `
+    <span>
+      <p>Orange</p>
+    </span>
+  `
 }]
