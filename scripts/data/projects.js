@@ -134,4 +134,52 @@ export const projects = [{
       <p>Lata</p>
     </span>
   `
+}, {
+  id: 3,
+  number: 'three',
+  href: 'death-stranding',
+
+  name: 'Death<br>Stranding',
+  designType: 'Motion Design',
+  year: '2022',
+  text: `
+  <p>“Death Stranding” is set in a dystopian future where the world has been devastated by the “Death Stranding”, connecting human reality with that of the BTs (Beached Things) and introducing a new energy called chiralium.</p>
+  <p>The credits I carried out for this game focus their aesthetics on ink stains, reminiscent of the lakes that form when a BT captures a human, composed of a black substance very similar to oil.</p>
+  <p>In each scene, there is a reference to the world of “Death Stranding”: the inverted rainbow, a handprint, Sam's BB, Amélie's necklace, the cryptobiotes that Fragile always consumes, or the BTs around Higgs, as he is capable of controlling them.</p>
+
+  <div class="links">
+    <a class="js-link" href="https://www.youtube.com/watch?v=bdwblqYEuvo" target="_blank">
+      <span class="js-point">·</span><p>Watch Credits in YT</p>
+    </a>
+  </div>
+  `,
+
+  videoHome: 'assets/video/death-stranding/death-stranding_credits.mp4',
+  projectMedia: `
+  <video controls autoplay="autoplay" playsinline muted defaultMuted loop="loop" oncontextmenu="return false;" preload="auto" style="filter: brightness(0.97);"> 
+    <source src="assets/video/death-stranding/death-stranding_credits.mp4" type="video/mp4">
+  </video>
+  `,
+
+  titleIsLong: 'true',
+  nameDesktopLineOne: `
+    <span>
+      <p>Death</p>
+    </span>
+  `,
+  nameDesktopLineTwo: `
+    <span>
+      <p>Stranding</p>
+    </span>
+  `,
+  nameMobileLineOne: `
+    <span>
+      <p>Death</p>
+    </span>
+  `,
+  nameMobileLineTwo: `
+    <span>
+      <p>Stranding</p>
+    </span>
+  `
 }]

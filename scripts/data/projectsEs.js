@@ -134,4 +134,52 @@ export const projectsEs = [{
       <p>Lata</p>
     </span>
   `
+}, {
+  id: 3,
+  number: 'three',
+  href: 'death-stranding',
+
+  name: 'Death<br>Stranding',
+  designType: 'Motion Design',
+  year: '2022',
+  text: `
+  <p>“Death Stranding” se desarrolla en un futuro distópico donde el mundo ha sido devastado por el “Death Stranding”, conectando la realidad humana con la de los EV (Entes Varados) y otorgando una nueva energía llamada quiralio.</p>
+  <p>Los créditos que llevé a cabo para este videojuego centran su estética en las manchas de tinta, que pretenden recordar a los lagos que se forman cuando un EV atrapa a un humano, compuestos por una sustancia negra muy similar al petróleo.</p>
+  <p>En cada escena, aparece una referencia al mundo de “Death Stranding”: el arco iris invertido, la huella de una mano, el BB de Sam, el collar de Amélie, los criptobios que Fragile siempre consume o los EV alrededor de Higgs, ya que este es capaz de controlarlos.</p>
+
+  <div class="links">
+    <a class="js-link" href="https://www.youtube.com/watch?v=bdwblqYEuvo" target="_blank">
+      <span class="js-point">·</span><p>Ver créditos en YT</p>
+    </a>
+  </div>
+  `,
+
+  videoHome: 'assets/video/death-stranding/death-stranding_credits.mp4',
+  projectMedia: `
+  <video controls autoplay="autoplay" playsinline muted defaultMuted loop="loop" oncontextmenu="return false;" preload="auto" style="filter: brightness(0.97);"> 
+    <source src="../assets/video/death-stranding/death-stranding_credits.mp4" type="video/mp4">
+  </video>
+  `,
+
+  titleIsLong: 'true',
+  nameDesktopLineOne: `
+    <span>
+      <p>Death</p>
+    </span>
+  `,
+  nameDesktopLineTwo: `
+    <span>
+      <p>Stranding</p>
+    </span>
+  `,
+  nameMobileLineOne: `
+    <span>
+      <p>Death</p>
+    </span>
+  `,
+  nameMobileLineTwo: `
+    <span>
+      <p>Stranding</p>
+    </span>
+  `
 }]
