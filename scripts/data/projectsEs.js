@@ -92,4 +92,46 @@ export const projectsEs = [{
       <p>Balduino</p>
     </span>
   `
+}, {
+  id: 2,
+  number: 'two',
+  href: 'cata-la-lata',
+
+  name: 'Cata la<br>Lata',
+  designType: 'Packaging,<br>3D',
+  year: '2023',
+  text: `
+  <p>“Cata la Lata” es el lema bajo el cual se desarrollan las promociones de ANFACO-CECOPESCA, con el objetivo de potenciar el consumo de las conservas y el conocimiento de estas.</p>
+  <p>Este trabajo fue presentado al Premio de Diseño Anfaco/Fundación Banco Sabadell, que consistía en la creación de un diseño de packaging para ser utilizado como estuche de las latas en la campaña “Cata la Lata” durante un año.</p>
+  <p>Mi propuesta pretende dejar de lado todo lo corporativo para centrarse en el propio producto; de ahí que las ilustraciones representen las figuras de los animales en sí, conseguidas a partir de recortes de papel para añadir un valor orgánico que se aleje de lo articial para acercarse a lo natural y ecológico.</p>
+  `,
+
+  videoHome: 'assets/video/cata-la-lata/cata-la-lata_home.mp4',
+  projectMedia: `
+  <img src="../assets/img/cata-la-lata/cata-la-lata_mussels.webp" alt="cata-la-lata_mussels">
+  <img src="../assets/img/cata-la-lata/cata-la-lata_sardines.webp" alt="cata-la-lata_sardines">
+  <img src="../assets/img/cata-la-lata/cata-la-lata_tuna.webp" alt="cata-la-lata_tuna">
+  `,
+
+  titleIsLong: 'true',
+  nameDesktopLineOne: `
+    <span>
+      <p>Cata la</p>
+    </span>
+  `,
+  nameDesktopLineTwo: `
+    <span>
+      <p>Lata</p>
+    </span>
+  `,
+  nameMobileLineOne: `
+    <span>
+      <p>Cata la</p>
+    </span>
+  `,
+  nameMobileLineTwo: `
+    <span>
+      <p>Lata</p>
+    </span>
+  `
 }]

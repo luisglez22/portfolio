@@ -92,4 +92,46 @@ export const projects = [{
     <p>Memorial</p>
   </span>
 `
+}, {
+  id: 2,
+  number: 'two',
+  href: 'cata-la-lata',
+
+  name: 'Cata la<br>Lata',
+  designType: 'Packaging,<br>3D',
+  year: '2023',
+  text: `
+  <p>“Cata la Lata” is the slogan under which ANFACOCECOPESCA promotions are developed, aiming to promote the consumption of canned products and increasing knowledge about them.</p>
+  <p>This work was presented at the Anfaco/Fundación Banco Sabadell Design Award, which consisted in the creation of a packaging design to be used as a case for the cans in the “Cata la Lata” campaign for one year.</p>
+  <p>My proposal aims to set aside everything corporate to focus on the product itself; hence, the illustrations represent the figures of the animals themselves, achieved from paper cutouts to add an organic value that moves away from the artificial and closer to the natural and ecological.</p>
+  `,
+
+  videoHome: 'assets/video/cata-la-lata/cata-la-lata_home.mp4',
+  projectMedia: `
+  <img src="assets/img/cata-la-lata/cata-la-lata_mussels.webp" alt="cata-la-lata_mussels">
+  <img src="assets/img/cata-la-lata/cata-la-lata_sardines.webp" alt="cata-la-lata_sardines">
+  <img src="assets/img/cata-la-lata/cata-la-lata_tuna.webp" alt="cata-la-lata_tuna">
+  `,
+
+  titleIsLong: 'true',
+  nameDesktopLineOne: `
+    <span>
+      <p>Cata la</p>
+    </span>
+  `,
+  nameDesktopLineTwo: `
+    <span>
+      <p>Lata</p>
+    </span>
+  `,
+  nameMobileLineOne: `
+    <span>
+      <p>Cata la</p>
+    </span>
+  `,
+  nameMobileLineTwo: `
+    <span>
+      <p>Lata</p>
+    </span>
+  `
 }]
