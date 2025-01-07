@@ -182,4 +182,48 @@ export const projects = [{
       <p>Stranding</p>
     </span>
   `
+}, {
+  id: 4,
+  number: 'four',
+  href: 'lovecraft-collection',
+
+  name: 'Lovecraft<br>Collection',
+  designType: 'Editorial',
+  year: '2022',
+  text: `
+  <p>This project involved creating both the covers and the layout for “The Call of Cthulhu,” “Dagon,” and “The Colour Out of Space,” three tales from very different periods of the author.</p>
+  <p>The cover illustrations depict the main elements of the plot, emerging through a door that, if you dare to cross and turn the page, will lead you into the aura of the story. This is made possible by a die-cut on the cover that reveals the color of the next page, creating a new composition by combining the two parts.</p>
+  <p>These auras represent the atmosphere of each story through different colors that identify each tale and its cover, with the intention behind the design of making the reader's first encounter with Lovecraft's cosmic world a bit easier.</p>
+  `,
+
+  videoHome: 'assets/video/lovecraft-collection/lovecraft-collection_home.mp4',
+  projectMedia: `
+  <img class="img-vertical" src="assets/img/lovecraft-collection/lovecraft-collection_cthulhu.webp" alt="lovecraft-collection_cthulhu">
+  <img class="img-vertical" src="assets/img/lovecraft-collection/lovecraft-collection_dagon.webp" alt="lovecraft-collection_dagon">
+  <img class="img-vertical" src="assets/img/lovecraft-collection/lovecraft-collection_colour.webp" alt="lovecraft-collection_colour">
+  <img src="assets/img/lovecraft-collection/lovecraft-collection_die-cut.webp" alt="lovecraft-collection_die-cut">
+  <img src="assets/img/lovecraft-collection/lovecraft-collection_layout.webp" alt="lovecraft-collection_layout">
+  `,
+
+  titleIsLong: 'true',
+  nameDesktopLineOne: `
+    <span>
+      <p>Lovecraft</p>
+    </span>
+  `,
+  nameDesktopLineTwo: `
+    <span>
+      <p>Collection</p>
+    </span>
+  `,
+  nameMobileLineOne: `
+    <span>
+      <p>Lovecraft</p>
+    </span>
+  `,
+  nameMobileLineTwo: `
+    <span>
+      <p>Collection</p>
+    </span>
+  `
 }]
