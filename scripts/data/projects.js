@@ -97,7 +97,7 @@ export const projects = [{
   number: 'two',
   href: 'cata-la-lata',
 
-  name: 'Cata la<br>Lata',
+  name: 'Cata la Lata',
   designType: 'Packaging,<br>3D',
   year: '2023',
   text: `
