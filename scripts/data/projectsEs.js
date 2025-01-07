@@ -182,4 +182,48 @@ export const projectsEs = [{
       <p>Stranding</p>
     </span>
   `
+}, {
+  id: 4,
+  number: 'four',
+  href: 'coleccion-lovecraft',
+
+  name: 'Colección<br>Lovecraft',
+  designType: 'Editorial',
+  year: '2022',
+  text: `
+  <p>Este proyecto consistió en realizar tanto las portadas como la maquetación de “La llamada de Cthulhu”, “Dagon” y “El color que cayó del cielo”, tres relatos de tres épocas muy dispares del autor.</p>
+  <p>Las ilustraciones de la portada representan los elementos principales de la trama, que aparecen a través de una puerta que, si te atreves a cruzar y pasas de página, conseguirás llegar al aura del relato. Esto es posible gracias a un troquel en la portada que deja entrever el color de la página siguiente, consiguiendo una nueva composición a partir de la unión de las dos partes.</p>
+  <p>Estas auras representan la atmósfera de cada historia a través de distintos colores que identifican cada obra y su portada, cuyo diseño pretende que el primer contacto del lector con el infinito mundo lovecraftiano sea algo más sencillo.</p>
+  `,
+
+  videoHome: 'assets/video/lovecraft-collection/lovecraft-collection_home.mp4',
+  projectMedia: `
+  <img class="img-vertical" src="../assets/img/lovecraft-collection/lovecraft-collection_cthulhu.webp" alt="lovecraft-collection_cthulhu">
+  <img class="img-vertical" src="../assets/img/lovecraft-collection/lovecraft-collection_dagon.webp" alt="lovecraft-collection_dagon">
+  <img class="img-vertical" src="../assets/img/lovecraft-collection/lovecraft-collection_colour.webp" alt="lovecraft-collection_colour">
+  <img src="../assets/img/lovecraft-collection/lovecraft-collection_die-cut.webp" alt="lovecraft-collection_die-cut">
+  <img src="../assets/img/lovecraft-collection/lovecraft-collection_layout.webp" alt="lovecraft-collection_layout">
+  `,
+
+  titleIsLong: 'true',
+  nameDesktopLineOne: `
+    <span>
+      <p>Colección</p>
+    </span>
+  `,
+  nameDesktopLineTwo: `
+    <span>
+      <p>Lovecraft</p>
+    </span>
+  `,
+  nameMobileLineOne: `
+    <span>
+      <p>Colección</p>
+    </span>
+  `,
+  nameMobileLineTwo: `
+    <span>
+      <p>Lovecraft</p>
+    </span>
+  `
 }]
