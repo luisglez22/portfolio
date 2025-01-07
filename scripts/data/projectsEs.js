@@ -275,4 +275,45 @@ export const projectsEs = [{
       <p>Mecánica</p>
     </span>
   `
+}, {
+  id: 6,
+  number: 'six',
+  href: 'calendario-inapa',
+
+  name: 'Calendario<br>Inapa',
+  designType: 'Cartelería',
+  year: '2021',
+  text: `
+  <p>El concepto de este cartel gira alrededor de la idea del diseño de una tarjeta de visita para Freddy Krueger, propuesta por la empresa Inapa, para ser posteriormente incluida en un calendario.</p>
+  <p>Para ello integré el anverso y el reverso de la tarjeta en el propio cartel, unificando la pieza.</p>
+  <p>La ilustración del anverso pretende transportarte al mundo de los sueños en el que Krueger actúa. Para ello, se han utilizado formas deformes y surrealistas, típicas de los sueños, junto con elementos y colores característicos del personaje, como sus ojos (verdes); su piel (rosada y con zonas quemadas); su sombrero (negro); y su camiseta (marrón verdoso y rojo).</p>
+  <p>En cuanto al reverso, aparece la “información de contacto” en la parte superior, y una ilustración en la parte inferior que pretende recordar a las 8 míticas cuchillas que Krueger tiene en sus guantes y con las que lleva a cabo sus asesinatos.</p>
+  `,
+
+  videoHome: 'assets/video/inapa-calendar/inapa-calendar_home.mp4',
+  projectMedia: `
+  <img src="../assets/img/inapa-calendar/inapa-calendar_mockup.webp" alt="inapa-calendar_mockup">
+  `,
+
+  titleIsLong: 'true',
+  nameDesktopLineOne: `
+    <span>
+      <p>Calendario</p>
+    </span>
+  `,
+  nameDesktopLineTwo: `
+    <span>
+      <p>Inapa</p>
+    </span>
+  `,
+  nameMobileLineOne: `
+    <span>
+      <p>Calendario</p>
+    </span>
+  `,
+  nameMobileLineTwo: `
+    <span>
+      <p>Inapa</p>
+    </span>
+  `
 }]

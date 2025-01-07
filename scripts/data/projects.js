@@ -274,4 +274,45 @@ export const projects = [{
       <p>Orange</p>
     </span>
   `
+}, {
+  id: 6,
+  number: 'six',
+  href: 'inapa-calendar',
+
+  name: 'Inapa<br>Calendar',
+  designType: 'Signage',
+  year: '2021',
+  text: `
+  <p>The concept of this poster revolves around the idea of designing a business card for Freddy Krueger, proposed by the company Inapa, to be later included in a calendar.</p>
+  <p>To achieve this, I integrated the front and back of the card into the poster itself, unifying the piece.</p>
+  <p>The illustration on the front aims to transport you to the dream world where Krueger operates. Deformed and surreal shapes typical of dreams have been used, along with elements and colors characteristic of the character, such as his eyes (green), his skin (pink with burnt areas), his hat (black), and his shirt (greenish-brown and red).</p>
+  <p>As for the back, the “contact information” appears at the top, and an illustration at the bottom aims to resemble the 8 iconic blades that Krueger has on his gloves and uses to carry out his murders.</p>
+  `,
+
+  videoHome: 'assets/video/inapa-calendar/inapa-calendar_home.mp4',
+  projectMedia: `
+  <img src="assets/img/inapa-calendar/inapa-calendar_mockup.webp" alt="inapa-calendar_mockup">
+  `,
+
+  titleIsLong: 'true',
+  nameDesktopLineOne: `
+    <span>
+      <p>Inapa</p>
+    </span>
+  `,
+  nameDesktopLineTwo: `
+    <span>
+      <p>Calendar</p>
+    </span>
+  `,
+  nameMobileLineOne: `
+    <span>
+      <p>Inapa</p>
+    </span>
+  `,
+  nameMobileLineTwo: `
+    <span>
+      <p>Calendar</p>
+    </span>
+  `
 }]
