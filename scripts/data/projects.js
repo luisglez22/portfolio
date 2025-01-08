@@ -1,6 +1,60 @@
 export const projects = [{
-  id: 0,
-  number: 'zero',
+    id: 0,
+    number: 'zero',
+    href: 'king-baudouin-memorial',
+  
+    name: 'King Baudouin<br>Memorial',
+    designType: 'Web Design',
+    year: '2024',
+    text: `
+    <p>King Baudouin Memorial (Memorial Rey Balduino) located in Motril, aims to convey to the public the values and life philosophy of Baudouin, King of the Belgians, and to share with all who visit this place his human and spiritual journey.</p>
+    <p>My role involved crafting its website, adhering to the previously established graphic identity in order to achieve an environment that aligns with the essence of the memorial where elegance does not compromise modernity.</p>
+  
+    <div class="links">
+      <a class="js-link" href="https://www.memorialreybalduino.com" target="_blank">
+        <span class="js-point">·</span><p>Live Site</p>
+      </a>
+    </div>
+    `,
+  
+    videoHome: 'assets/video/king-baudouin-memorial/king-baudouin-memorial_home.mp4',
+    projectMedia: `
+    <div class="video-container">
+    <video data-can-pause="true" autoplay="autoplay" playsinline muted defaultMuted loop="loop" oncontextmenu="return false;" preload="auto" style="filter: brightness(0.97); mix-blend-mode: screen;"> 
+      <source src="assets/video/king-baudouin-memorial/king-baudouin-memorial_web.mp4">
+    </video>
+    </div>
+    `,
+  
+    titleIsLong: 'true',
+    nameDesktopLineOne: `
+      <span>
+        <p>King Baudouin</p>
+      </span>
+    `,
+    nameDesktopLineTwo: `
+      <span>
+        <p>Memorial</p>
+      </span>
+    `,
+    nameMobileLineOne: `
+      <span>
+        <p>King</p>
+      </span>
+    `,
+    nameMobileLineTwo: `
+      <span>
+        <p>Baudouin</p>
+      </span>
+    `,
+    nameMobileLineThree: `
+    <span>
+      <p>Memorial</p>
+    </span>
+  `
+}, {
+  id: 1,
+  number: 'one',
   href: 'khaos',
 
   name: 'Kháos',
@@ -38,60 +92,6 @@ export const projects = [{
   `,
 
   titleIsLong: 'false'
-}, {
-  id: 1,
-  number: 'one',
-  href: 'king-baudouin-memorial',
-
-  name: 'King Baudouin<br>Memorial',
-  designType: 'Web Design',
-  year: '2023',
-  text: `
-  <p>King Baudouin Memorial (Memorial Rey Balduino) located in Motril, aims to convey to the public the values and life philosophy of Baudouin, King of the Belgians, and to share with all who visit this place his human and spiritual journey.</p>
-  <p>My role involved crafting its website, adhering to the previously established graphic identity in order to achieve an environment that aligns with the essence of the memorial where elegance does not compromise modernity.</p>
-
-  <div class="links">
-    <a class="js-link" href="https://www.memorialreybalduino.com" target="_blank">
-      <span class="js-point">·</span><p>Live Site</p>
-    </a>
-  </div>
-  `,
-
-  videoHome: 'assets/video/king-baudouin-memorial/king-baudouin-memorial_home.mp4',
-  projectMedia: `
-  <div class="video-container">
-  <video data-can-pause="true" autoplay="autoplay" playsinline muted defaultMuted loop="loop" oncontextmenu="return false;" preload="auto" style="filter: brightness(0.97); mix-blend-mode: screen;"> 
-    <source src="assets/video/king-baudouin-memorial/king-baudouin-memorial_web.mp4">
-  </video>
-  </div>
-  `,
-
-  titleIsLong: 'true',
-  nameDesktopLineOne: `
-    <span>
-      <p>King Baudouin</p>
-    </span>
-  `,
-  nameDesktopLineTwo: `
-    <span>
-      <p>Memorial</p>
-    </span>
-  `,
-  nameMobileLineOne: `
-    <span>
-      <p>King</p>
-    </span>
-  `,
-  nameMobileLineTwo: `
-    <span>
-      <p>Baudouin</p>
-    </span>
-  `,
-  nameMobileLineThree: `
-  <span>
-    <p>Memorial</p>
-  </span>
-`
 }, {
   id: 2,
   number: 'two',
