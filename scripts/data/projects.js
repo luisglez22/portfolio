@@ -198,10 +198,11 @@ export const projects = [{
 
   videoHome: 'assets/video/lovecraft-collection/lovecraft-collection_home.mp4',
   projectMedia: `
-  <img class="img-vertical" src="assets/img/lovecraft-collection/lovecraft-collection_cthulhu.webp" alt="lovecraft-collection_cthulhu">
-  <img class="img-vertical" src="assets/img/lovecraft-collection/lovecraft-collection_dagon.webp" alt="lovecraft-collection_dagon">
-  <img class="img-vertical" src="assets/img/lovecraft-collection/lovecraft-collection_colour.webp" alt="lovecraft-collection_colour">
-  <img src="assets/img/lovecraft-collection/lovecraft-collection_die-cut.webp" alt="lovecraft-collection_die-cut">
+  <img src="assets/img/lovecraft-collection/lovecraft-collection_covers.webp" alt="lovecraft-collection_covers">
+  <img src="assets/img/lovecraft-collection/lovecraft-collection_cthulhu.webp" alt="lovecraft-collection_cthulhu">
+  <img src="assets/img/lovecraft-collection/lovecraft-collection_dagon.webp" alt="lovecraft-collection_dagon">
+  <img src="assets/img/lovecraft-collection/lovecraft-collection_colour.webp" alt="lovecraft-collection_colour">
+  <img src="assets/img/lovecraft-collection/lovecraft-collection_back-cover.webp" alt="lovecraft-collection_back-cover">
   <img src="assets/img/lovecraft-collection/lovecraft-collection_layout.webp" alt="lovecraft-collection_layout">
   `,
 
