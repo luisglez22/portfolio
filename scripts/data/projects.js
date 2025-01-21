@@ -108,8 +108,8 @@ export const projects = [{
 
   videoHome: 'assets/video/cata-la-lata/cata-la-lata_home.mp4',
   projectMedia: `
-  <img src="assets/img/cata-la-lata/cata-la-lata_mussels.webp" alt="cata-la-lata_mussels">
   <img src="assets/img/cata-la-lata/cata-la-lata_sardines.webp" alt="cata-la-lata_sardines">
+  <img src="assets/img/cata-la-lata/cata-la-lata_mussels.webp" alt="cata-la-lata_mussels">
   <img src="assets/img/cata-la-lata/cata-la-lata_tuna.webp" alt="cata-la-lata_tuna">
   `,
 
