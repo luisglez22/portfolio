@@ -240,12 +240,6 @@ export const projectsEs = [{
   <p>En cuanto a la caja contenedora de los folletos decidí apostar por un diseño exterior simple, que únicamente incluyera el logotipo, pero un interior rompedor que aportara valor a la pieza.</p>
   <p>Este interior incluye los elementos distintivos del protagonista de la película Alex DeLarge: el sombrero, el maquillaje en el ojo derecho, los ojos en las muñecas y su vestimenta.</p>
   <p>Por otro lado, el logotipo o sello conmemorativo también incluye su icónico ojo derecho y su sombrero; junto a una naranja (como un guiño al título de la película).</p>
-
-  <div class="links">
-    <a class="js-link" href="https://www.behance.net/gallery/129105897/50-anos-de-La-Naranja-Mecanica-(Proyecto-Universitario)#" target="_blank">
-      <span class="js-point">·</span><p>Proyecto en Behance</p>
-    </a>
-  </div>
   `,
 
   videoHome: 'assets/video/a-clockwork-orange/a-clockwork-orange_mockup.mp4',

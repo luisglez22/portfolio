@@ -239,12 +239,6 @@ export const projects = [{
   <p>In celebration of the 50th anniversary of “A Clockwork Orange,” students from ESNE (now UDIT) and ESAD (Escola Superior de Artes e Design do Matosinhos) came together. My contribution to this project involved designing the packaging for brochures and the commemorative logo.</p>
   <p>For the brochure container, I opted for a simple exterior design, featuring only the logo, but an eyecatching interior to add value to the piece. This interior includes distinctive elements of the film's protagonist, Alex DeLarge: the hat, makeup on the right eye, eyes on the wrists, and his clothing.</p>
   <p>Additionally, the commemorative logo or seal also incorporates his iconic right eye and hat, alongside an orange (as a nod to the film title).</p>
-
-  <div class="links">
-    <a class="js-link" href="https://www.behance.net/gallery/129105897/50-anos-de-La-Naranja-Mecanica-(Proyecto-Universitario)#" target="_blank">
-      <span class="js-point">·</span><p>Project in Behance</p>
-    </a>
-  </div>
   `,
 
   videoHome: 'assets/video/a-clockwork-orange/a-clockwork-orange_mockup.mp4',
