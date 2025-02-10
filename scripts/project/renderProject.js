@@ -25,13 +25,22 @@ export function renderProject() {
   let titleHTML = '';
 
   if(matchingProject.titleIsLong === 'true') {
-    titleHTML = `
-    <h1 class="project-title-desktop">${matchingProject.nameDesktopLineOne}</h1>
-    <h1 class="project-title-desktop">${matchingProject.nameDesktopLineTwo}</h1>
-    <h1 class="project-title-mobile">${matchingProject.nameMobileLineOne}</h1>
-    <h1 class="project-title-mobile">${matchingProject.nameMobileLineTwo}</h1>
-    <h1 class="project-title-mobile">${matchingProject.nameMobileLineThree}</h1>
-    `;
+    if (matchingProject.nameMobileLineThree === undefined) {
+      titleHTML = `
+      <h1 class="project-title-desktop">${matchingProject.nameDesktopLineOne}</h1>
+      <h1 class="project-title-desktop">${matchingProject.nameDesktopLineTwo}</h1>
+      <h1 class="project-title-mobile">${matchingProject.nameMobileLineOne}</h1>
+      <h1 class="project-title-mobile">${matchingProject.nameMobileLineTwo}</h1>
+      `;
+    } else {
+      titleHTML = `
+      <h1 class="project-title-desktop">${matchingProject.nameDesktopLineOne}</h1>
+      <h1 class="project-title-desktop">${matchingProject.nameDesktopLineTwo}</h1>
+      <h1 class="project-title-mobile">${matchingProject.nameMobileLineOne}</h1>
+      <h1 class="project-title-mobile">${matchingProject.nameMobileLineTwo}</h1>
+      <h1 class="project-title-mobile">${matchingProject.nameMobileLineThree}</h1>
+      `;
+    }
   } else {
     titleHTML = `
     <h1>
